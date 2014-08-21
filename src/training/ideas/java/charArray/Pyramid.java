@@ -5,7 +5,7 @@ package training.ideas.java.charArray;
  */
 public class Pyramid {
     public static void printPyramid(){
-        String name="AMOL";
+        String name="IDEAS";
         String add="";
         String output="";
         String space="";
