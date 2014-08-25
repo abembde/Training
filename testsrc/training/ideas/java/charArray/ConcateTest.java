@@ -13,7 +13,7 @@ public class ConcateTest {
         char[] X = {'A','B','C'};
         char[] Y = {'L','M','N'};
         char[] expected = {'A','B','C','L','M','N'};
-        Assert.assertArrayEquals(expected, Concate.stringConcate(X, Y));
+        Assert.assertArrayEquals(expected, Concate.charConcate(X, Y));
 
     }
 }
