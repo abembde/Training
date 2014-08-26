@@ -7,17 +7,19 @@ public class MatrixAdd {
 
         public static Object[] add(int[][] MatrixA, int[][] MatrixB) {
 
-            int MatrixC[][] = new int[MatrixA.length][MatrixB[0].length];
+            int MatrixC[][] = new int[MatrixA.length][MatrixB.length];
 
-            for (int counter1 = 0; counter1 < MatrixA.length; counter1++) {
+            for (int i = 0; i < MatrixA.length; i++) {
 
-                for (int counter2 = 0; counter2 < MatrixB.length; counter2++) {
+                for (int j = 0; j < MatrixB.length; j++) {
 
-                    MatrixC[counter1][counter2] = MatrixA[counter1][counter2] + MatrixB[counter1][counter2];
+                    MatrixC[i][j] = MatrixA[i][j] + MatrixB[i][j];
                 }
             }
 
             return MatrixC;
         }
-    }
+
+
+}
 
