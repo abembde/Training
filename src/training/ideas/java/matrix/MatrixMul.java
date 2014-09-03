@@ -5,6 +5,8 @@ package training.ideas.java.matrix;
  */
 public class MatrixMul {
     public static Object[] Mul(int[][] matrixA, int[][] matrixB) {
+
+
         return new Object[0];
     }
-}
+    }
