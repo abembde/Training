@@ -1,4 +1,4 @@
-package training.ideas.java.decision;
+package training.ideas.java.decisions;
 
 public class CalFPLOS {
 

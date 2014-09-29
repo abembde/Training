@@ -1,7 +1,5 @@
 
-package training.ideas.java.decision;
-
-import java.util.Arrays;
+package training.ideas.java.decisions;
 
 /**
  * Created by idnamb on 7/25/2014.
