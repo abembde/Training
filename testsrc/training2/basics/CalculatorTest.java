@@ -1,5 +1,6 @@
 package training2.basics;
 
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -12,11 +13,11 @@ public class CalculatorTest {
 
     public void add_number_2_and_5() {
 
-        int actual = calc.performAdd(2, 5);
-        Assert.assertEquals("Addition not matched", 7, actual);
+        double actual = calc.performAdd(2.1, 5.0);
+        Assert.assertEquals("Addition not matched", 7.1, actual,0);
         calc.performAdd(2, 5);
-        calc.performAdd(2, 5);
-        calc.performAdd(2, 5);
+        calc.performAdd(2.0, 5.0);
+        calc.performAdd(2.0, 5.0);
         Assert.assertEquals(4, calc.getCount());
     }
     @Test
@@ -41,7 +42,7 @@ public class CalculatorTest {
 
     @Test
 
-    public void mul_number_6_and_2() {
+    public void div_number_6_and_2() {
         int actual = calc.performDiv(6, 2);
         Assert.assertEquals("Division not matched", 3, actual);
         calc.performAdd(6, 2);

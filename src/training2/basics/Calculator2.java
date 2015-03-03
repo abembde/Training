@@ -30,4 +30,10 @@ public class Calculator2 {
         count++;
         return num1/num2;
     }
+
+    public double performAdd(double num1, double num2) {
+        count++;
+        return num1+num2;
+
+    }
 }

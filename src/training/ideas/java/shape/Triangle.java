@@ -27,6 +27,7 @@ public class Triangle {
                 }
                 else
                 {
+
                     return TriangleType.TRINGLE;
                 }
             }
